@@ -133,7 +133,7 @@ export default function Contact() {
                       value={form.name}
                       onChange={handleChange}
                       placeholder="Your name"
-                      className="w-full bg-[#f5f7fa] border border-[#d0dce8] rounded-lg px-4 py-3 text-sm text-[#0f1923] placeholder-[#8a9bad] focus:outline-none focus:border-[#4d7a96] transition-colors duration-200"
+                      className="w-full bg-[#eef1f5] border border-[#d0dce8] rounded-lg px-4 py-3 text-sm text-[#0f1923] placeholder-[#8a9bad] focus:outline-none focus:border-[#4d7a96] transition-colors duration-200"
                     />
                   </div>
                   <div>
@@ -146,7 +146,7 @@ export default function Contact() {
                       value={form.company}
                       onChange={handleChange}
                       placeholder="Your company"
-                      className="w-full bg-[#f5f7fa] border border-[#d0dce8] rounded-lg px-4 py-3 text-sm text-[#0f1923] placeholder-[#8a9bad] focus:outline-none focus:border-[#4d7a96] transition-colors duration-200"
+                      className="w-full bg-[#eef1f5] border border-[#d0dce8] rounded-lg px-4 py-3 text-sm text-[#0f1923] placeholder-[#8a9bad] focus:outline-none focus:border-[#4d7a96] transition-colors duration-200"
                     />
                   </div>
                 </div>
@@ -162,7 +162,7 @@ export default function Contact() {
                     value={form.email}
                     onChange={handleChange}
                     placeholder="you@company.com"
-                    className="w-full bg-[#f5f7fa] border border-[#d0dce8] rounded-lg px-4 py-3 text-sm text-[#0f1923] placeholder-[#8a9bad] focus:outline-none focus:border-[#4d7a96] transition-colors duration-200"
+                    className="w-full bg-[#eef1f5] border border-[#d0dce8] rounded-lg px-4 py-3 text-sm text-[#0f1923] placeholder-[#8a9bad] focus:outline-none focus:border-[#4d7a96] transition-colors duration-200"
                   />
                 </div>
 
@@ -177,7 +177,7 @@ export default function Contact() {
                     onChange={handleChange}
                     rows={5}
                     placeholder="Tell us about your campaign goals..."
-                    className="w-full bg-[#f5f7fa] border border-[#d0dce8] rounded-lg px-4 py-3 text-sm text-[#0f1923] placeholder-[#8a9bad] focus:outline-none focus:border-[#4d7a96] transition-colors duration-200 resize-none"
+                    className="w-full bg-[#eef1f5] border border-[#d0dce8] rounded-lg px-4 py-3 text-sm text-[#0f1923] placeholder-[#8a9bad] focus:outline-none focus:border-[#4d7a96] transition-colors duration-200 resize-none"
                   />
                 </div>
 

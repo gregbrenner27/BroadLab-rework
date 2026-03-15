@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function TeamPage() {
   return (
-    <main className="bg-[#f5f7fa] min-h-screen">
+    <main className="bg-[#eef1f5] min-h-screen">
       <Navbar />
       <div className="pt-20">
         <CEOQuote />

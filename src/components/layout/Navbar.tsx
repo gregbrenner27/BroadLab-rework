@@ -53,7 +53,7 @@ export default function Navbar() {
   const isActive = (label: string) => activeSection === label;
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-[#4D7A96] border-b border-white/20 shadow-[0_2px_20px_rgba(0,0,0,0.2)]">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[#0f1923] border-b border-white/20 shadow-[0_2px_20px_rgba(0,0,0,0.2)]">
       <div className="container-main flex items-center justify-between h-16 md:h-20">
 
         {/* Logo */}
@@ -109,7 +109,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <div className={`md:hidden transition-all duration-300 overflow-hidden ${menuOpen ? "max-h-80" : "max-h-0"}`}>
-        <nav className="bg-[#4D7A96] border-t border-white/20 px-6 py-6 flex flex-col gap-5">
+        <nav className="bg-[#0f1923] border-t border-white/20 px-6 py-6 flex flex-col gap-5">
           {navLinks.map((link) => (
             <a
               key={link.label}

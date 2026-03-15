@@ -197,7 +197,7 @@ export default function Insights() {
                 className={`text-left p-5 rounded-card border transition-all duration-300 group cursor-pointer ${
                   activeId === ds.id
                     ? "border-[#4d7a96] bg-white shadow-[0_0_24px_rgba(77,122,150,0.1)]"
-                    : "border-[#d0dce8] bg-[#f5f7fa] hover:border-[#4d7a96]/50"
+                    : "border-[#d0dce8] bg-[#eef1f5] hover:border-[#4d7a96]/50"
                 }`}
               >
                 <div className="flex items-center gap-4">

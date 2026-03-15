@@ -96,7 +96,7 @@ export default function Stats() {
   }, []);
 
   return (
-    <section className="section-padding bg-[#f5f7fa]" ref={ref}>
+    <section className="section-padding bg-[#eef1f5]" ref={ref}>
       <div className="container-main">
         <div className="text-center mb-12">
           <span className="tag mb-4 inline-flex">By the Numbers</span>

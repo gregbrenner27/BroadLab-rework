@@ -363,7 +363,7 @@ export default function Services() {
         className="relative border-t border-[#d0dce8]"
         style={{ height: `${TOTAL * 100}vh` }}
       >
-        <div className="sticky top-0 h-screen flex flex-col justify-center overflow-hidden bg-[#f5f7fa]">
+        <div className="sticky top-0 h-screen flex flex-col justify-center overflow-hidden bg-[#eef1f5]">
           <div className="container-main w-full">
 
             {/* 3-column grid: stepper | content | visual */}

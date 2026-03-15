@@ -72,7 +72,7 @@ export default function ValueProp() {
   }, []);
 
   return (
-    <section id="about" className="section-padding bg-[#f5f7fa]" ref={sectionRef}>
+    <section id="about" className="section-padding bg-[#eef1f5]" ref={sectionRef}>
       <div className="container-main">
 
         {/* Headline */}
