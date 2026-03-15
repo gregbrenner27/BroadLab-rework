@@ -440,15 +440,23 @@ export default function Services() {
                       and audience targeting through to real-time campaign activation and
                       full-funnel outcome measurement. One platform, four capabilities, zero gaps.
                     </p>
-                    <button
-                      onClick={() => sectionRef.current && scrollToSlide(sectionRef.current, 1)}
-                      className="inline-flex items-center gap-2 text-sm font-medium text-[#4d7a96] hover:text-[#6bbdd8] transition-colors"
-                    >
-                      Explore our services
-                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round">
-                        <path d="M7 2v10M3 8l4 4 4-4" />
-                      </svg>
-                    </button>
+                    <div className="flex flex-col items-start gap-4">
+                      <button
+                        onClick={() => sectionRef.current && scrollToSlide(sectionRef.current, 1)}
+                        className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#4d7a96] hover:bg-[#6bbdd8] text-white text-sm font-medium transition-all duration-200 hover:shadow-[0_0_24px_rgba(77,122,150,0.35)]"
+                      >
+                        Explore our services
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
+                          <path d="M7 2v10M3 8l4 4 4-4" />
+                        </svg>
+                      </button>
+                      <div className="flex items-center gap-2 text-[#8a9bad] text-[12px]">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" className="animate-bounce">
+                          <path d="M8 3v10M4 9l4 4 4-4" />
+                        </svg>
+                        Scroll to explore
+                      </div>
+                    </div>
                   </div>
                 ) : step && (
                   <div>
